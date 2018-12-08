@@ -1,0 +1,84 @@
+/opt/JetBrains/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zzh/code/CLionProjects/opencv_record
+-- Configuring done
+CMake Error in CMakeLists.txt:
+  Imported target "opencv_calib3d" includes non-existent path
+
+    "//include/opencv4"
+
+  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+
+  * The path was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and references files it does not
+  provide.
+
+
+
+CMake Error in CMakeLists.txt:
+  Imported target "opencv_calib3d" includes non-existent path
+
+    "//include/opencv4"
+
+  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+
+  * The path was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and references files it does not
+  provide.
+
+
+
+CMake Error in CMakeLists.txt:
+  Imported target "opencv_calib3d" includes non-existent path
+
+    "//include/opencv4"
+
+  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+
+  * The path was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and references files it does not
+  provide.
+
+
+
+CMake Error in CMakeLists.txt:
+  Imported target "opencv_calib3d" includes non-existent path
+
+    "//include/opencv4"
+
+  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+
+  * The path was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and references files it does not
+  provide.
+
+
+
+CMake Error in CMakeLists.txt:
+  Imported target "opencv_calib3d" includes non-existent path
+
+    "//include/opencv4"
+
+  in its INTERFACE_INCLUDE_DIRECTORIES.  Possible reasons include:
+
+  * The path was deleted, renamed, or moved to another location.
+
+  * An install or uninstall procedure did not complete successfully.
+
+  * The installation package was faulty and references files it does not
+  provide.
+
+
+
+-- Generating done
+-- Build files have been written to: /home/zzh/code/CLionProjects/opencv_record/cmake-build-debug

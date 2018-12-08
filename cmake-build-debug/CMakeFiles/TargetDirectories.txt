@@ -1,0 +1,4 @@
+/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/CMakeFiles/opencv_record.dir
+/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/CMakeFiles/opencv_record_autogen.dir
