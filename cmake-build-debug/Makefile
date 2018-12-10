@@ -136,32 +136,32 @@ opencv_record_autogen/fast:
 	$(MAKE) -f CMakeFiles/opencv_record_autogen.dir/build.make CMakeFiles/opencv_record_autogen.dir/build
 .PHONY : opencv_record_autogen/fast
 
-calibrateCamera/cc.o: calibrateCamera/cc.cpp.o
+ex5/test1.o: ex5/test1.cpp.o
 
-.PHONY : calibrateCamera/cc.o
+.PHONY : ex5/test1.o
 
 # target to build an object file
-calibrateCamera/cc.cpp.o:
-	$(MAKE) -f CMakeFiles/opencv_record.dir/build.make CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.o
-.PHONY : calibrateCamera/cc.cpp.o
+ex5/test1.cpp.o:
+	$(MAKE) -f CMakeFiles/opencv_record.dir/build.make CMakeFiles/opencv_record.dir/ex5/test1.cpp.o
+.PHONY : ex5/test1.cpp.o
 
-calibrateCamera/cc.i: calibrateCamera/cc.cpp.i
+ex5/test1.i: ex5/test1.cpp.i
 
-.PHONY : calibrateCamera/cc.i
+.PHONY : ex5/test1.i
 
 # target to preprocess a source file
-calibrateCamera/cc.cpp.i:
-	$(MAKE) -f CMakeFiles/opencv_record.dir/build.make CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.i
-.PHONY : calibrateCamera/cc.cpp.i
+ex5/test1.cpp.i:
+	$(MAKE) -f CMakeFiles/opencv_record.dir/build.make CMakeFiles/opencv_record.dir/ex5/test1.cpp.i
+.PHONY : ex5/test1.cpp.i
 
-calibrateCamera/cc.s: calibrateCamera/cc.cpp.s
+ex5/test1.s: ex5/test1.cpp.s
 
-.PHONY : calibrateCamera/cc.s
+.PHONY : ex5/test1.s
 
 # target to generate assembly for a file
-calibrateCamera/cc.cpp.s:
-	$(MAKE) -f CMakeFiles/opencv_record.dir/build.make CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.s
-.PHONY : calibrateCamera/cc.cpp.s
+ex5/test1.cpp.s:
+	$(MAKE) -f CMakeFiles/opencv_record.dir/build.make CMakeFiles/opencv_record.dir/ex5/test1.cpp.s
+.PHONY : ex5/test1.cpp.s
 
 opencv_record_autogen/mocs_compilation.o: opencv_record_autogen/mocs_compilation.cpp.o
 
@@ -200,9 +200,9 @@ help:
 	@echo "... opencv_record"
 	@echo "... edit_cache"
 	@echo "... opencv_record_autogen"
-	@echo "... calibrateCamera/cc.o"
-	@echo "... calibrateCamera/cc.i"
-	@echo "... calibrateCamera/cc.s"
+	@echo "... ex5/test1.o"
+	@echo "... ex5/test1.i"
+	@echo "... ex5/test1.s"
 	@echo "... opencv_record_autogen/mocs_compilation.o"
 	@echo "... opencv_record_autogen/mocs_compilation.i"
 	@echo "... opencv_record_autogen/mocs_compilation.s"

@@ -1,1 +1,1 @@
-This is my first time to ues difficult and useful git 
+This is my first time to ues difficult and useful git

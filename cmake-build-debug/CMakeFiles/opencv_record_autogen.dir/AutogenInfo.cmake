@@ -11,7 +11,7 @@ set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/opencv_record_autogen")
 set(AM_INCLUDE_DIR "/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/opencv_record_autogen/include")
 # Files
-set(AM_SOURCES "/home/zzh/code/CLionProjects/opencv_record/calibrateCamera/cc.cpp")
+set(AM_SOURCES "/home/zzh/code/CLionProjects/opencv_record/ex5/test1.cpp")
 set(AM_HEADERS "")
 set(AM_SETTINGS_FILE "/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/CMakeFiles/opencv_record_autogen.dir/AutogenOldSettings.txt")
 # Qt
@@ -21,7 +21,7 @@ set(AM_QT_UIC_EXECUTABLE "/usr/bin/uic")
 # MOC settings
 set(AM_MOC_SKIP "")
 set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB")
-set(AM_MOC_INCLUDES "//include/opencv4;/usr/include")
+set(AM_MOC_INCLUDES "/usr/include/opencv4;/usr/include/qt;/usr/include/qt/QtWidgets;/usr/include/qt/QtGui;/usr/include/qt/QtCore;/usr/lib/qt/mkspecs/linux-g++;/usr/include")
 set(AM_MOC_OPTIONS "")
 set(AM_MOC_RELAXED_MODE "")
 set(AM_MOC_MACRO_NAMES "Q_OBJECT;Q_GADGET;Q_NAMESPACE")

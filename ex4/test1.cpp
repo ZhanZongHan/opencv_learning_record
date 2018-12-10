@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
     }
     return 0;
     */
-    Mat src = imread("../ex4/images/sample4.png");
+    Mat src = imread("../ex4/images/sample1.png");
     if (src.empty()) {
         printf("could not load image...\n");
         return -1;
@@ -29,9 +29,10 @@ int main(int argc, char **argv) {
     imshow("input image", src);
     Mat gray, binary;
     cvtColor(src, gray, COLOR_BGR2GRAY);
+    GaussianBlur(gray, gray, Size(5, 5), 0);
     threshold(gray, binary, 0, 255, THRESH_BINARY | THRESH_OTSU);
     Mat kernel = getStructuringElement(MORPH_RECT, Size(3, 3));
- //   morphologyEx(binary, binary, MORPH_OPEN, kernel);
+    //   morphologyEx(binary, binary, MORPH_OPEN, kernel);
     imshow("binary", binary);
     // detect rectangle now
     vector<vector<Point>> contours;
@@ -47,36 +48,20 @@ int main(int argc, char **argv) {
         float w = rect.size.width;
         float h = rect.size.height;
         float rate = min(w, h) / max(w, h);
-        /*     if (rate > 0.85 && w < src.cols / 4 && h < src.rows / 4) {
-                 printf("angle : %.2f\n", rect.angle);
-     //            Mat qr_roi = transformCorner(src, rect);
-                 //if (isXCorner(qr_roi) && isYCorner(qr_roi))
-                 {
-                     drawContours(src, contours, static_cast<int>(t), Scalar(0, 0, 255), 2, 8);
-                     drawContours(result, contours, static_cast<int>(t), Scalar(255, 0, 0), 2, 8);
-                 }*/
-        if(rate > 0.80){
 
-      /*      vector<int> hull;
-            convexHull(contours[t], hull);
-            Point point0 = contours[t][hull[hull.size()-1]], point1;
-            for(int i = 0; i < hull.size(); i++) {
-                point1 = contours[t][hull[i]];
-                line(src, point0, point1, Scalar(255,0,0), 2);
-                point0 = point1;
-            }*/
+        if (rate > 0.8) {
             Point2f pts[4];
             rect.points(pts);
             Point point0 = pts[3], point1;
-            for(int i = 0; i < 4; i++) {
+            for (int i = 0; i < 4; i++) {
                 point1 = pts[i];
-                line(src, point0, point1, Scalar(255,0,0), 2);
+                line(src, point0, point1, Scalar(255, 0, 0), 2);
                 point0 = point1;
             }
-            circle(src, rect.center, 2, Scalar(255,255,0), -1);
+            circle(src, rect.center, 2, Scalar(255, 255, 0), -1);
             char angle[10];
             sprintf(angle, "%f", rect.angle);
-            putText(src, string(angle), rect.center, FONT_HERSHEY_COMPLEX, 0.3, Scalar(0,255,255));
+            putText(src, string(angle), rect.center, FONT_HERSHEY_COMPLEX, 0.3, Scalar(0, 255, 255));
         }
     }
     imshow("result", src);

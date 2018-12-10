@@ -5,7 +5,7 @@
 		<Option title="opencv_record"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\lib64\;CMake Files\..\..\..\..\..\lib64\cmake\;CMake Files\..\..\..\..\..\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\lib64\cmake\Qt5Core\;CMake Files\..\..\..\..\..\lib64\cmake\opencv4\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\lib64\;CMake Files\..\..\..\..\..\lib64\cmake\;CMake Files\..\..\..\..\..\lib64\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\lib64\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\lib64\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\opencv4\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug"/>
@@ -38,7 +38,12 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add directory="/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/opencv_record_autogen/include"/>
-					<Add directory="//include/opencv4"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
@@ -65,7 +70,12 @@
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add directory="/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/opencv_record_autogen/include"/>
-					<Add directory="//include/opencv4"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/qt"/>
+					<Add directory="/usr/include/qt/QtWidgets"/>
+					<Add directory="/usr/include/qt/QtGui"/>
+					<Add directory="/usr/include/qt/QtCore"/>
+					<Add directory="/usr/lib/qt/mkspecs/linux-g++"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
@@ -102,10 +112,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/calibrateCamera/cc.cpp">
+		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/opencv_record_autogen/mocs_compilation.cpp">
 			<Option target="opencv_record"/>
 		</Unit>
-		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/opencv_record_autogen/mocs_compilation.cpp">
+		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/ex5/test1.cpp">
 			<Option target="opencv_record"/>
 		</Unit>
 		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/CMakeLists.txt">
@@ -270,17 +280,17 @@
 		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../lib64/cmake/Qt5Core/Qt5CoreMacros.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\lib64\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../lib64/cmake/opencv4/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\lib64\cmake\opencv4\"/>
+		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../usr/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../lib64/cmake/opencv4/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\lib64\cmake\opencv4\"/>
+		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../usr/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../lib64/cmake/opencv4/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\lib64\cmake\opencv4\"/>
+		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../usr/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\opencv4\"/>
 		</Unit>
-		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../lib64/cmake/opencv4/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\lib64\cmake\opencv4\"/>
+		<Unit filename="/home/zzh/code/CLionProjects/opencv_record/../../../../../usr/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\opencv4\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

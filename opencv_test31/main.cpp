@@ -7,7 +7,7 @@ using namespace cv;
 using namespace cv::xfeatures2d;
 
 int main() {
-    Mat src = imread("/home/zzh/图片/cat.jpg");
+    Mat src = imread("/home/zzh/图片/cat.jpeg");
     if(src.empty()) {
         cout << "can not load the image!" << endl;
         return -1;

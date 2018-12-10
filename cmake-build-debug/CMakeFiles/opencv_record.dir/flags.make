@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -fPIC -std=gnu++14
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/opencv_record_autogen/include -isystem //include/opencv4 
+CXX_INCLUDES = -I/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/opencv_record_autogen/include -isystem /usr/include/opencv4 -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ 
 

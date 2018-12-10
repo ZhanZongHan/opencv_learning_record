@@ -64,10 +64,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/lib64/cmake/Qt5Widgets/Qt5Widgets_QGtk2StylePlugin.cmake"
   "/lib64/cmake/Qt5Widgets/Qt5Widgets_QMotifStylePlugin.cmake"
   "/lib64/cmake/Qt5Widgets/Qt5Widgets_QPlastiqueStylePlugin.cmake"
-  "/lib64/cmake/opencv4/OpenCVConfig-version.cmake"
-  "/lib64/cmake/opencv4/OpenCVConfig.cmake"
-  "/lib64/cmake/opencv4/OpenCVModules-release.cmake"
-  "/lib64/cmake/opencv4/OpenCVModules.cmake"
   "/opt/JetBrains/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCInformation.cmake"
   "/opt/JetBrains/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXInformation.cmake"
   "/opt/JetBrains/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake"
@@ -91,6 +87,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/JetBrains/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/share/cmake-3.13/Modules/Platform/Linux.cmake"
   "/opt/JetBrains/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/share/cmake-3.13/Modules/Platform/UnixPaths.cmake"
   "/opt/JetBrains/apps/CLion/ch-0/183.4588.63/bin/cmake/linux/share/cmake-3.13/Modules/ProcessorCount.cmake"
+  "/usr/lib/cmake/opencv4/OpenCVConfig-version.cmake"
+  "/usr/lib/cmake/opencv4/OpenCVConfig.cmake"
+  "/usr/lib/cmake/opencv4/OpenCVModules-release.cmake"
+  "/usr/lib/cmake/opencv4/OpenCVModules.cmake"
   )
 
 # The corresponding makefile is:

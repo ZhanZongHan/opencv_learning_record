@@ -57,18 +57,18 @@ include CMakeFiles/opencv_record.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/opencv_record.dir/flags.make
 
-CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.o: CMakeFiles/opencv_record.dir/flags.make
-CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.o: ../calibrateCamera/cc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.o"
-	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.o -c /home/zzh/code/CLionProjects/opencv_record/calibrateCamera/cc.cpp
+CMakeFiles/opencv_record.dir/ex5/test1.cpp.o: CMakeFiles/opencv_record.dir/flags.make
+CMakeFiles/opencv_record.dir/ex5/test1.cpp.o: ../ex5/test1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zzh/code/CLionProjects/opencv_record/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencv_record.dir/ex5/test1.cpp.o"
+	/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencv_record.dir/ex5/test1.cpp.o -c /home/zzh/code/CLionProjects/opencv_record/ex5/test1.cpp
 
-CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.i"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zzh/code/CLionProjects/opencv_record/calibrateCamera/cc.cpp > CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.i
+CMakeFiles/opencv_record.dir/ex5/test1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencv_record.dir/ex5/test1.cpp.i"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zzh/code/CLionProjects/opencv_record/ex5/test1.cpp > CMakeFiles/opencv_record.dir/ex5/test1.cpp.i
 
-CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.s"
-	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zzh/code/CLionProjects/opencv_record/calibrateCamera/cc.cpp -o CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.s
+CMakeFiles/opencv_record.dir/ex5/test1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencv_record.dir/ex5/test1.cpp.s"
+	/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zzh/code/CLionProjects/opencv_record/ex5/test1.cpp -o CMakeFiles/opencv_record.dir/ex5/test1.cpp.s
 
 CMakeFiles/opencv_record.dir/opencv_record_autogen/mocs_compilation.cpp.o: CMakeFiles/opencv_record.dir/flags.make
 CMakeFiles/opencv_record.dir/opencv_record_autogen/mocs_compilation.cpp.o: opencv_record_autogen/mocs_compilation.cpp
@@ -85,13 +85,13 @@ CMakeFiles/opencv_record.dir/opencv_record_autogen/mocs_compilation.cpp.s: cmake
 
 # Object files for target opencv_record
 opencv_record_OBJECTS = \
-"CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.o" \
+"CMakeFiles/opencv_record.dir/ex5/test1.cpp.o" \
 "CMakeFiles/opencv_record.dir/opencv_record_autogen/mocs_compilation.cpp.o"
 
 # External object files for target opencv_record
 opencv_record_EXTERNAL_OBJECTS =
 
-opencv_record: CMakeFiles/opencv_record.dir/calibrateCamera/cc.cpp.o
+opencv_record: CMakeFiles/opencv_record.dir/ex5/test1.cpp.o
 opencv_record: CMakeFiles/opencv_record.dir/opencv_record_autogen/mocs_compilation.cpp.o
 opencv_record: CMakeFiles/opencv_record.dir/build.make
 opencv_record: /usr/lib/libopencv_gapi.so.4.0.0
