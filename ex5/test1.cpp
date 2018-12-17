@@ -27,8 +27,8 @@ int main()
     CascadeClassifier face_cascade;
     CascadeClassifier eye_cascade;
 
-    String face_cascade_name = "D:/opencv/sources/data/haarcascades/haarcascade_frontalface_alt.xml";
-    String eye_cascade_name = "D:/opencv/sources/data/haarcascades/haarcascade_eye.xml";
+    String face_cascade_name = "../ex5/haarcascade_xml/haarcascade_frontalface_alt.xml";
+    String eye_cascade_name = "../ex5/haarcascade_xml/haarcascade_eye_tree_eyeglasses.xml";
 
     if (!face_cascade.load(face_cascade_name))
     {
