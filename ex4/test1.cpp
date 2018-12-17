@@ -31,9 +31,8 @@ int main(int argc, char **argv) {
         blur(gray, gray, Size(5, 5));
         threshold(gray, binary, 0, 255, THRESH_BINARY | THRESH_OTSU);
         Mat kernel = getStructuringElement(MORPH_RECT, Size(3, 3));
-        //   morphologyEx(binary, binary, MORPH_OPEN, kernel);
         imshow("binary", binary);
-        // detect rectangle now
+        // 检测轮廓
         vector<vector<Point>> contours;
         vector<Vec4i> hierarchy;
         Moments moments;
@@ -53,6 +52,7 @@ int main(int argc, char **argv) {
                     continue;
                 Point2f pts[4];
                 rect.points(pts);
+                // 绘画矩形
                 Point point0 = pts[3], point1;
                 for (int i = 0; i < 4; i++) {
                     point1 = pts[i];
