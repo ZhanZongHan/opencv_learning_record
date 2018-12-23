@@ -17,7 +17,7 @@ int main() {
     int count = 1;
     while (capture.read(frame)) {
         vector<Rect> faces;
-        face_cascade.detectMultiScale(frame, faces, 1.1, 2, 0 | CASCADE_SCALE_IMAGE, Size(30, 30), Size(300, 300));
+        face_cascade.detectMultiScale(frame, faces, 1.1, 2, 0 | CASCADE_SCALE_IMAGE, Size(400, 400), Size(400, 400));
         for (int i = 0; i < faces.size(); i++) {
             rectangle(frame, faces[i], Scalar(0, 0, 255), 2);
             Mat dst;

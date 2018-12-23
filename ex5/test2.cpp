@@ -49,7 +49,7 @@ int main() {
     Mat gray;
     // 开启摄像头
     while (capture.read(frame)) {
-        face_cascade.detectMultiScale(frame, faces, 1.1, 2, 0 | CASCADE_SCALE_IMAGE, Size(30, 30), Size(300, 300));
+        face_cascade.detectMultiScale(frame, faces, 1.1, 2, 0 | CASCADE_SCALE_IMAGE, Size(400, 400), Size(400, 400));
         for (int i = 0; i < faces.size(); i++) {
             Mat roi = frame(faces[i]);
             cvtColor(roi, gray, COLOR_BGR2GRAY);
@@ -58,7 +58,7 @@ int main() {
             rectangle(frame, faces[i], Scalar(0, 0, 255), 2);
             int label = modle->predict(dst);
             // 如果检测出来的结果得到匹配
-            putText(frame, format((label == 0) ? "zzh" : "unknown"), Point(faces[i].x, faces[i].y),
+            putText(frame, label == 0 ? "zzh" : "unknown", Point(faces[i].x, faces[i].y),
                     FONT_HERSHEY_COMPLEX_SMALL, 2,
                     Scalar(255, 255, 0), 2);
         }
